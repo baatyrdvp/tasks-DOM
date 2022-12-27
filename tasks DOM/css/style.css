@@ -1,0 +1,95 @@
+.modalWindow {
+    width: 650px;
+    height: 250px;
+    padding: 0px 10px;
+    margin: 80px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    padding-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 3px black;
+}
+
+.box-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-weight: 400;
+}
+
+.elem2 {
+    padding: 20px 0px;
+}
+
+.button-block {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-block button {
+    margin-right: 20px;
+}
+
+.btn_1 {
+    background: none;
+    width: 80px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.btn_1:hover {
+    transform: scale(1.1);
+    background-color: red;
+    color: white;
+    transition: all 1s ease;
+}
+
+#input2, #input1 {
+    width: 610px;
+}
+
+.btn_2 {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(72, 72, 189);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn_2:hover {
+    background-color: rgb(56, 165, 56);
+    color: white;
+    transition: all 1s ease;
+    transform: scale(1.1);
+}
+
+.box-line input {
+    border: none;
+    font-size: 20px;
+}
+
+.elem2 input {
+    font-size: 15px;
+}
+
+.resultWindow {
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 0px auto;
+    padding: 0px 20px;
+    color: white;
+    background: linear-gradient(to right, #DA22FF, #9733EE)
+}
+
+.title-block {
+    text-align: center;
+    color: purple;
+}
